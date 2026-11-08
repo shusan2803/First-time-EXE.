@@ -1,0 +1,184 @@
+{
+    "subjects" : [
+        {
+            "subjectId": 1,
+            "subjectname": "Applied Physics",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "In Real life, unlimited energy is impossible but what proved it to be impossible.",
+                    "options": ["Thermodynamics Law 1: dW(Work) + dU(Internal Energy) = dQ(Heat Supplied/Exerted)","Thermodynamics Law 2: S(Entropy) = closed Integral of (partial derivative of Q)/T less than equal to 0.","Thermodynamics Law 3: For a perfect Crystal limit of T(Temperature of crystal) tend to absolute Zero(OK) of Entropy of crystal(S) is equal to 0.","Gibbs Energy of Universe: dG(Gibbs of Energy) = dH(Enthalpy) + d{TS(Temperature product with Entropy)}."],
+                    "answer": 1
+                },
+                {
+                    "id": 2,
+                    "question": "In Quantum physics, there is possiblity for mass to pass through a wall but what explained it.",
+                    "options": ["Transmission probability of a Wave/Particle","Momentum probability of the Wave/Particle","Position probablity of the Wave/Particle", "Potential barrier around Wave/Particle"],
+                    "answer": [0,3]
+                },
+                {
+                    "id": 3,
+                    "question": "Light(photon) behaves as both particle or wave but what determines it to behave as either of those options.",
+                    "options": ["No explanation for this case","Depends on the path and interaction with matter","Bohr's Wavelength and momentum formula{lamda=h(Plank's constant)/p(Momentum)}","It is predetrmined that Light will behave as particle for specific cases otherwise it will behave as wave"],
+                    "answer": 1
+                },
+                {
+                    "id": 4,
+                    "question": "A sub atomic particle that is Electron, Proton, and Neutron. These particles aur further divided into more complexs quantum particles that is...",
+                    "options": ["Quarks","Gluons","Bose-Einstein particle called Higgs boson particle","Fermions"],
+                    "answer": 3
+                },
+                {
+                    "id": 5,
+                    "question": "Why a particle that have mass can't go at the speed of light stated by Einstein's theory of relativity ?",
+                    "options": ["Because it has mass","Because particle will be converted into energy","As the mass reaches toward the spped of light it will started to increase rapidly and eventually will be infinte that is not possible in real life(mass can not be created from nothing)","Energy that needed to reach that speed will be infinite."],
+                    "answer": [2,3]
+                }
+            ]
+        },
+        {
+            "subjectId":2,
+            "subjectname": "Engineering Mechanics",
+            "questions":[
+                {
+                    "id": 1,
+                    "question": "In physical mechanics there is some types of friction, which friction determines the minimum amount of froce that needed to move a mass from it's rest position",
+                    "options": ["Kinetic friction","Static friction","Limiting friction","Topple"],
+                    "answer": 2
+                },
+                {
+                    "id": 2,
+                    "question": "In physical mechanics, what made a object to roll on the surface?",
+                    "options": ["Speed","Mass","Force Direction","Friction"],
+                    "answer": 3
+                },
+                {
+                    "id": 3,
+                    "question": "In fluid Mechanics, What explains the flying of aerooplane?",
+                    "options": ["Area of continuity","Pascal Law","Bernoulli's principle","Air Drag"],
+                    "answer": [2,3]
+                },
+                {
+                    "id": 4,
+                    "question": "In fluid Mechanics, The concept of viscosity is introduced to explain what?",
+                    "options":["The loss in Energy overtime(internal friction)","(Pressure)Force exerted in fluid on Object/Mass","Air Drag","Layers of the fluid while flowing"],
+                    "answer": [0,2,3]
+                },
+                {
+                    "id": 5,
+                    "question": "In Physical Mechanics, What weight of the object(W) if it's in a lift and its going down with (g) acceleration?",
+                    "options": ["W","2W","0","W/2"],
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "subjectId": 3,
+            "subjectname": "C++",
+            "questions": [
+                {
+                    "id": 1,
+                    "question": "Why in multiple choices for coding languages for coding,C++ is preferred?",
+                    "options": ["It's Easy to use","It's fast and have more freedom for memory and it's closer to hardware","It's not preferred as first choice","It's application based1"],
+                    "answer": [0,1]
+                },
+                {
+                    "id": 2,
+                    "question": "What is the advantage of using C++ when C is there",
+                    "options": ["Object Oriented Programming","No dynamic Garbage Collection on compile time","There is no advantage just fancy to use","Make it easier for data to make protected if use properly"],
+                    "answer": [0,1,3]
+                },
+                {
+                    "id": 3,
+                    "question": "Even though most Machine learning and LLM(long language model) is coded in python but it's still use C++ Where?",
+                    "options": ["Modules that python used is wriiten in C++","Interperator of python","Processes of Hash-map or K-map to traverse in LLM is using C++","It does not use C++ whatsoever"],
+                    "answer": [0,1]
+                },
+                {
+                    "id": 4,
+                    "question": "In C++ data structure, You have learned about Arrays, Stack, Queue, Linked list but there is way to store the data way more efficiently and traverse them without over memory consumption and dynamically increasing and decreasing also less chance of memory leak with less time complexity, Do you what it is but highly dependent on cases it get's used!",
+                    "options": ["Vectors","Deques","Hash Tree/Map","Array-List"],
+                    "answer": [0,1,2,3]
+                },
+                {
+                    "id": 5,
+                    "question": "In C++, The fastest sorting algorithm are Heap sorting and Merging Sorting but at base level it use very basics of sorting algorithm what could that be?",
+                    "options": ["Insertion Sorting","Bubble Sorting","Selection Sorting","It does not use any of these but have different algorithm for comparision"],
+                    "answer": [0,1]
+                }
+            ]
+        },
+        {
+            "subjectId": 4,
+            "subjectname": "Computational Methods",
+            "questions":[
+                {
+                    "id": 1,
+                    "question": "Using Trapezoidal Method and answer upto 4 decimal, Integrate the following function that is f(x) = 3sin(x)+4cos(x) with limit A to B where A=0 and B=1",
+                    "options": ["3.4567","3.7844","3.5989","3.6756"],
+                    "answer": 1
+                },
+                {
+                    "id": 2,
+                    "question": "Find the value of f(x) at 2 if given table of values of x and corresponding to f(x) is x[-1,0,3,6,7,10] and f(x)[-8,5,16,25,47,76]",
+                    "options": ["18.72","18.78","18.67","18.65"],
+                    "answer": 0
+                },
+                {
+                    "id": 3,
+                    "question": "Find the probability of a particle's momentum at x=0.5, if ⨚(x) = 2sin(x) between x= 0 to 2 using Newton's difference rule",
+                    "options": ["1.7655","1.7698","1.7608","1.7702"],
+                    "answer": 2
+                },
+                {
+                    "id": 4,
+                    "question": "If acceleration function that dependent on the x(position) given as a(x)=x³+4x-10 where this is true for only x at 0 to 6 find the velocity at x=2.5, where the initail velocity is 8m/s.",
+                    "options": ["7.665","7.65057","7.645","7.668"],
+                    "answer": 1
+                },
+                {
+                    "id": 5,
+                    "question": "What would be the percentage error of a function (Volume)V= (mass)M/(density)p, where density(p) is non uniform tha have function as p = Mr³/V(Volume of mass/particle) where dM/dV = 2kg/m³, dr/dV = 0.8m-², dr=0.1m, r=2m, dV=0.5m³, V=6m³, dm=02kg, m=4kg",
+                    "options": ["13%","16%","15%","14%"],
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "subjectId": 5,
+            "subjectname": "Aeronautics Physics",
+            "questions":[
+                {
+                    "id": 1,
+                    "question": "What takes the star that consumes it's all fuel and start contracting on instant to become a celistial body(Magnatar, Neutron Star, Black Hole)",
+                    "options": ["Chandrashakher limit of mass os start","It's Surrounding gravitational pull and matrials required","It become when a galaxy forms not by dying star","Not confirmed by any means it's still a mystery"],
+                    "answer": 0
+                },
+                {
+                    "id": 2,
+                    "question": "It assumed that, at the centre of a black hole every matter or to precise all the information is converted to singularity but what singularity even is?",
+                    "options": ["Information or mass converted to 0-Dimensional","Where density and mass is infinite","There is no information for singularity","All the known Physics breaks at that point so only theory are present but nothing can prove it"],
+                    "answer": [1,3]
+                },
+                {
+                    "id": 3,
+                    "question": "What happens when two or more neutron stars start revolving each other",
+                    "options": ["Not possible for this condition to happen","The send ripples to space-time curve or gravitational field like waves as their strong gravitational force and at very high speeds and eventually colliding makes a kilonova that creates heavy elements as Gold, Platinum and Uranium also sending a very huge amount of energy in universe known as gamma burst/Rays","When the collide they create a black hole depends upon combined mass of both also creating a kilonava in the process","They create another celestial body known as Magnetar if the combined mass is not enough"],
+                    "answer": [1,2,3]
+                },
+                {
+                    "id": 4,
+                    "question": "In space according to Theory of Relativity nothing can go faster than speed of light because of this there is concept of Time Dilation, What exactly is this phenomenon",
+                    "options": ["It's like Time travel you can both go in past or future if you can achieve high speed","It makes the world go at faster rate of time than you and gives you more life time to age/Die !","It makes the world go as slower rate of time than you that makes your life less","It does not apply at objects that have mass"],
+                    "answer": [0]
+                },
+                {
+                    "id": 5,
+                    "question": "In current knowledge there is Three Dimension humanor human eyes can see that only contains coordinates that comes in grapgh of space so what do you think 4th dimension have that we can not achieve nor perceive at current time",
+                    "options": ["4th space coordinates(x,y,z,W-coordinates) that is perpendicular to all the 3 axis as well and also we cannot perceive as we are lower dimensional beings, similar to a 2-Dimensional being cannot perceive a 3rd axis known as z-axis","Time is introduced as another position vector that an object change it's location and shape with time or store all the information about object of origin to nothing in one compact form","As far we know it does not exist","The concept of  mass is not applicable now in 4th-Dimension"],
+                    "answer": [0,1]
+                }
+            ]
+        }
+    ]
+}
