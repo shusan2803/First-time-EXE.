@@ -6,7 +6,7 @@ A desktop multiple-choice quiz app built with **C++ and Qt Quick (QML)**. The pr
 
 - Qt 6 with Qt Quick and Qt Quick Controls
 - Qt Creator and a compatible C++ compiler
-- 
+  
 ## Install the Windows app
 
 Download `Quiz.App-1.0.0-win64.exe` from the [Pre-release Quiz app v1.0.0 release](https://github.com/shusan2803/First-time-EXE./releases/tag/PreReleaseQuizapp_v.1.0.0), then run the downloaded installer. This release provides a Windows 64-bit executable.
